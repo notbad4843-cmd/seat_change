@@ -1,0 +1,6 @@
+{
+  "name": "두근두근 자리바꾸기",
+  "description": "레고 시네마틱 스타일의 30명 학급 좌석 배치 및 무작위/수동 자리바꾸기 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Lego Stud Pattern Generator */
+  .bg-lego-studs {
+    background-color: #1e242d;
+    background-image: 
+      radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.15) 20%, rgba(0, 0, 0, 0.35) 45%, transparent 60%),
+      radial-gradient(circle at 50% 50%, #2a323d 35%, #181d24 65%);
+    background-size: 24px 24px;
+    background-position: 0 0, 0 0;
+  }
+
+  .bg-lego-yellow-studs {
+    background-color: #f7c325;
+    background-image: 
+      radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.4) 18%, rgba(180, 130, 0, 0.5) 45%, transparent 60%),
+      radial-gradient(circle at 50% 50%, #fbd54e 35%, #d9a010 65%);
+    background-size: 24px 24px;
+  }
+
+  .bg-lego-red-studs {
+    background-color: #d11215;
+    background-image: 
+      radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 18%, rgba(100, 0, 0, 0.5) 45%, transparent 60%),
+      radial-gradient(circle at 50% 50%, #e82c2f 35%, #9e0608 65%);
+    background-size: 24px 24px;
+  }
+
+  .bg-lego-blue-studs {
+    background-color: #0055bf;
+    background-image: 
+      radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 18%, rgba(0, 30, 100, 0.5) 45%, transparent 60%),
+      radial-gradient(circle at 50% 50%, #1a6fd9 35%, #003b87 65%);
+    background-size: 24px 24px;
+  }
+
+  /* Plastic Gloss Bevel Effect */
+  .lego-brick-shadow {
+    box-shadow: 
+      inset 0 1px 1px rgba(255, 255, 255, 0.4),
+      inset 0 -2px 2px rgba(0, 0, 0, 0.3),
+      0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  .lego-card-bevel {
+    box-shadow: 
+      inset 0 1.5px 0.5px rgba(255, 255, 255, 0.45),
+      inset 0 -2px 1px rgba(0, 0, 0, 0.4),
+      0 6px 16px -2px rgba(0, 0, 0, 0.5);
+  }
+
+  .lego-text-shadow {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(255, 255, 255, 0.2);
+  }
+
+  .lego-title-glow {
+    text-shadow: 
+      0 0 10px rgba(255, 213, 0, 0.6),
+      3px 3px 0px #d11215,
+      -2px -2px 0px #000;
+  }
+}
+
+/* Custom scrollbar for Lego theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #181d24;
+}
+::-webkit-scrollbar-thumb {
+  background: #e5a800;
+  border-radius: 4px;
+  border: 1px solid #9e7400;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f7c325;
+}
