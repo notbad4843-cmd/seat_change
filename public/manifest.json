@@ -1,0 +1,17 @@
+{
+  "name": "두근두근 자리배치",
+  "short_name": "자리배치",
+  "description": "자리배치 프로그램",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512 any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
